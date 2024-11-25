@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="./js/index.js"></script>
+    <script src="./js/tailwind.config.js"></script>
+    <link rel="stylesheet" href="./css/index.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <nav class="nav bg-black text-white pt-[50px] m-auto text-center">
+        <div class="container">
+          <div class="relative flex justify-between nav__wrapper item-center">
+            <div class="nav__img-box">
+              <img src="./assets/icons/tailwind__nav-logo.svg" alt="" />
+            </div>
+            <ul class="flex gap-[23px] item-center pt-[24px] font-bold">
+              <li>
+                <a href=""><span>ГЛАВНАЯ</span></a>
+              </li>
+              <li>
+                <a href=""><span>МЕНЮ</span></a>
+              </li>
+              <li>
+                <a href=""><span>О НАС</span></a>
+              </li>
+              <li>
+                <a href=""><span>БРОНЬ</span></a>
+              </li>
+            </ul>
+            <div class="cart_box">
+              <div class="border"></div>
+              <img class="cart" src="./assets/icons/cart.svg" alt="" />
+            </div>
+            <div class="relative phone-box">
+              <img
+                class="absolute"
+                src="./assets/icons/phone__nav.svg"
+                alt=""
+              />
+              <span>+999-888-76-54</span>
+              <br />
+              <p class="block">
+                Свяжитесь с нами для <br />
+                бронирования
+              </p>
+            </div>
+            <div class="button-box">
+              <button class="font-bold button bg-[#FF7400]">
+                ЗАКАЗ СТОЛИКА
+              </button>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="container m-auto">
+          <div class="text-center text-white info-box pt-[70px]">
+            <h2 class="text-[#D67E35] text-[50px]">Добро пожаловать в</h2>
+            <h1 class="text-[80px]">Наш ресторан</h1>
+            <div class="border-spann right-[20px]"></div>
+            <div class="border-span"></div>
+            <p class="span pb-[21px]">ДОМ ЛУЧШЕЙ ЕДЫ</p>
+            <br />
+
+            <a href="" class="font-bold hero__button">VIEW MENU</a>
+          </div>
+        </div>
+        <div class="flex justify-center gap-[31px] card__wrapper">
+          <div class="bg-white card w-[339px] h-[290px] text-center">
+            <img
+              class="pl-[125px] pb-[4px]"
+              src="./assets/icons/food.svg"
+              alt=""
+            />
+
+            <span class="font-bold"
+              >Магическая <span class="text-[#D67E35]">Атмосфера</span></span
+            >
+            <p class="text-[#656363] pt-[20px]">
+              В нашем заведении царит <br />
+              магическая атмосфера <br />
+              наполненная вкусными ароматами
+            </p>
+          </div>
+          <div class="bg-white card w-[339px] h-[290px] text-center">
+            <img
+              class="pl-[125px] pb-[4px]"
+              src="./assets/icons/food.svg"
+              alt=""
+            />
+
+            <span class="font-bold"
+              >Магическая <span class="text-[#D67E35]">Атмосфера</span></span
+            >
+            <p class="text-[#656363] pt-[20px]">
+              В нашем заведении царит <br />
+              магическая атмосфера <br />
+              наполненная вкусными ароматами
+            </p>
+          </div>
+          <div class="bg-white card w-[339px] h-[290px] text-center">
+            <img
+              class="pl-[125px] pb-[4px]"
+              src="./assets/icons/food.svg"
+              alt=""
+            />
+
+            <span class="font-bold"
+              >Магическая <span class="text-[#D67E35]">Атмосфера</span></span
+            >
+            <p class="text-[#656363] pt-[20px]">
+              В нашем заведении царит <br />
+              магическая атмосфера <br />
+              наполненная вкусными ароматами
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="history">
+        <div class="container">
+          <div class="flex justify-between history__wrapper pt-[150px]">
+            <div class="text-center left__box">
+              <span class="text-[54px]"
+                >Наша <span class="text-[#D67E34]">История</span></span
+              >
+              <br />
+              <p class="pt-[21px] text-[#656363]">
+                Как и у любого другого самобытного места, у нас есть <br />
+                своя, особая история. Идея ресторана пришла <br />
+                основателям неожиданно. Во время прогулки по лесу <br />
+                создатель нашего ресторана застрял в сотнях <br />
+                километров от ближайшего населенного пункта. Вдали <br />
+                от цивилизации и связи им пришлось навремя <br />
+                обустровать себе нехитрый быт, добывать и готовить <br />
+                себе еду.
+              </p>
+              <div class="flex numbers gap-[45px]">
+                <div class="text-center">
+                  <span class="text-[#BC9060] text-[40px]"> 93 </span>
+                  <br />
+                  <p class="font-bold text-black text-[20px]">Напитки</p>
+                </div>
+                <div class="text-center">
+                  <span class="text-[#BC9060] text-[40px]">206</span>
+                  <br />
+                  <p class="font-bold text-black text-[20px]">Еда</p>
+                </div>
+                <div class="text-center">
+                  <span class="text-[#BC9060] text-[40px]">71</span>
+                  <p class="font-bold text-black text-[20px]">Закуски</p>
+                </div>
+              </div>
+            </div>
+            <div class="right-box">
+              <img src="./assets/images/history__img.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="order">
+        <div class="container">
+          <div class="flex justify-between order__wrapper item-center">
+            <div class="left__box pt-[80px] pb-[104px]">
+              <span class="saralavha text-[52px] text-[#D67E34]"
+                >Отпразднуйте в одном из <br />
+                самых лучших ресторанов.</span
+              >
+              <p class="font-bold text-white pt-[20px]">
+                Только в этом месяце бизнес-ланч от 250 ₽
+              </p>
+            </div>
+            <div class="right__box">
+              <button class="font-bold text-white order__button">
+                ЗАКАЗ СТОЛИКА
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="text-center dishes">
+        <div class="container">
+          <h3 class="text-[54px] mb-[139px]">
+            Наши <span class="text-[#D67E34]">Блюда</span>
+          </h3>
+          <div class="flex dishes__wrapper">
+            <div class="img-box">
+              <img class="dishes__img" src="./assets/images/img.jpg" alt="" />
+            </div>
+            <div class="info-box pt-[50px] text-[26px] w-[1500px]">
+              <span
+                >Гамбургер мини----------------------------------------220 ₽
+              </span>
+              <br />
+              <br />
+              <span
+                >Гамбургер мини----------------------------------------220 ₽
+              </span>
+              <br />
+              <br />
+              <span
+                >Гамбургер мини----------------------------------------220 ₽
+              </span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="menu">
+        <div class="container">
+          <div class="menu__wrapper pt-[300px] flex gap-[30px]">
+            <div class="cards">
+              <span class="cards__title bg-[#D67E34] absolute"
+                >RECOMMENDED</span
+              >
+              <img
+                class="cards__img"
+                src="./assets/images/menu__burger.png"
+                alt=""
+              />
+              <div class="number">420</div>
+              <span class="font-bold text-[26px]">Гамбургер макси</span>
+              <br />
+              <p class="pt-[17px]">
+                Максимально толстый <br />
+                слой мяса
+              </p>
+              <br />
+              <button class="font-bold cards__btn">ЗАКАЗАТЬ</button>
+            </div>
+            <div class="cards">
+              <img
+                class="cards__img"
+                src="./assets/images/menu__burger.png"
+                alt=""
+              />
+              <div class="number">420</div>
+              <span class="font-bold text-[26px]">Гамбургер макси</span>
+              <br />
+              <p class="pt-[17px]">
+                Максимально толстый <br />
+                слой мяса
+              </p>
+              <br />
+              <button class="font-bold cards__btn">ЗАКАЗАТЬ</button>
+            </div>
+            <div class="cards">
+              <img
+                class="cards__img"
+                src="./assets/images/menu__burger.png"
+                alt=""
+              />
+              <div class="number">420</div>
+              <span class="font-bold text-[26px]">Гамбургер макси</span>
+              <br />
+              <p class="pt-[17px]">
+                Максимально толстый <br />
+                слой мяса
+              </p>
+              <br />
+              <button class="font-bold cards__btn">ЗАКАЗАТЬ</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="info">
+        <div class="container">
+          <div class="text-center info__wrapper">
+            <p class="main__info pt-[104px] font-bold text-[20px] pb-[26px]">
+              Я надолго запомню мой День рождения, проведённый в этом ресторане!
+              Кусочек родной <br />
+              Армении!!! Отдельное спасибо за комплепент в виде фруктовой
+              тарелки. Будем <br />
+              рекомендовать этот ресторан своим друзьям и родственникам также за
+              рубежом, <br />
+              путешествующих в Санкт-Петербург!!!
+            </p>
+            <img class="info__man" src="./assets//icons/info_man.svg" alt="" />
+
+            <span class="font-bold name text-[20px] pb-[9px]">Посетитель</span>
+            <br />
+            <span>Николай</span>
+          </div>
+        </div>
+      </section>
+      <section class="text-center gallery pt-[101px]  font-bold pb-[100px]">
+        <div class="container">
+          <h5 class="text-[54px] bp-[60px]">Галерея <span class="text-[#D67E34]">Блюд</span></h5>
+          <br />
+          <img src="./assets/images/galleryi__images.jpg" alt="" />
+        </div>
+      </section>
+      <section class="text-center work pb-[100px]">
+        <div class="container">
+          <h5 class="text-[54px] bp-[60px]">Наши  <span class="text-[#D67E34]">Повара</span></h5>
+          <div class="flex work__wrapper gap-[32px]">
+            <img src="./assets/images/work (1).png" alt="">
+            <img src="./assets/images/work (2).png" alt="">
+            <img src="./assets/images/work (3).png" alt="">
+          </div>
+        </div>
+      </section>
+      <section class=" end">
+        <img class="m-auto" src="./assets/images/MAKE A RESERVATION.png" alt="">
+      </section>
+    </main>
+  </body>
+</html>
